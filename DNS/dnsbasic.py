@@ -25,6 +25,6 @@ if __name__ == "__main__":
 		sys.exit(-1)
 
 if dns_search(name):
-	print(answer.rrset)=
+	print("answer.rrset")
 else:
-	print()
+	print(None)
